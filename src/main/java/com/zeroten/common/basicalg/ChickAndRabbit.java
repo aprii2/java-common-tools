@@ -2,7 +2,7 @@ package com.zeroten.common.basicalg;
 
 import java.util.Scanner;
 
-public class ChicknRabbit {
+public class ChickAndRabbit {
     // 穷举算法
     private static int rabbit;
     private static int chicken;
