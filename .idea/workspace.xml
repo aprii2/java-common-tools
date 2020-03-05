@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdfb5288-49e2-4d50-8689-28c582a31952" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/MonkeyPeach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/KingCereal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeroten/common/datastructure/SequentialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/datastructure/SequentialList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/sortalg/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Wells5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/Wells5.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonkeyPeach.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MonkeyPeach.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/MonkeyPeach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="185">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KingCereal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/KingCereal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -148,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/basicalg/ChickAndRabbit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/datastructure/SequentialList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/MonkeyPeach.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/KingCereal.java" />
       </list>
     </option>
   </component>
@@ -165,7 +165,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="868" />
+    <option name="x" value="787" />
     <option name="width" value="1425" />
     <option name="height" value="1070" />
   </component>
@@ -273,18 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonkeyPeach">
-    <configuration name="ChickNRabbit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.classic.ChickNRabbit" />
-      <module name="java-common-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.classic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.KingCereal">
     <configuration name="Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.basicalg.Fact" />
       <module name="java-common-tools" />
@@ -292,6 +281,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeroten.common.basicalg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="KingCereal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.classic.KingCereal" />
+      <module name="java-common-tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.classic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,19 +371,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ChickNRabbit" />
       <item itemvalue="Application.RabbitBaby" />
       <item itemvalue="Application.Fact" />
       <item itemvalue="Application.SequentialList" />
       <item itemvalue="Application.MonkeyPeach" />
+      <item itemvalue="Application.KingCereal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KingCereal" />
         <item itemvalue="Application.MonkeyPeach" />
         <item itemvalue="Application.SequentialList" />
         <item itemvalue="Application.Fact" />
         <item itemvalue="Application.RabbitBaby" />
-        <item itemvalue="Application.ChickNRabbit" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +400,7 @@
       <workItem from="1582531135382" duration="5048000" />
       <workItem from="1583137017782" duration="9149000" />
       <workItem from="1583215526762" duration="15532000" />
-      <workItem from="1583312594138" duration="15448000" />
+      <workItem from="1583312594138" duration="17299000" />
     </task>
     <servers />
   </component>
@@ -410,10 +410,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45177000" />
+    <option name="totallyTimeSpent" value="47028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="695" y="0" width="1140" height="856" extended-state="0" />
+    <frame x="630" y="0" width="1140" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -426,7 +426,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33518776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33518776" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31988874" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -454,7 +454,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -721,8 +721,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/MonkeyPeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="185">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/classic/KingCereal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
