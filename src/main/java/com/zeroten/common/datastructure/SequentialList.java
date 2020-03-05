@@ -1,7 +1,6 @@
 package com.zeroten.common.datastructure;
 
 import java.util.Scanner;
-
 /*
 * 定义一个记录班级学生信息的顺序表：
 * 按学生学号顺序，存放学生的学号/姓名/年龄。
